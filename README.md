@@ -1,6 +1,5 @@
 # Overview
-
-<TODO: complete this with an overview of your project>
+For this project, you will create a project plan & setup Azure Pipelines to deploy the Flask ML Service Project to Azure App Service
 
 ## Project Plan
 <TODO: Project Plan
@@ -9,9 +8,8 @@
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
-
-<TODO:  
-* Architectural Diagram (Shows how key parts of the system work)>
+![](demo-pictures/architectural-diagram.png)
+Architectural Diagram
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
@@ -48,4 +46,4 @@ Port: 443
 
 <TODO: Add link Screencast on YouTube>
 
-
+az webapp up --name flask-ml-service-app-123 -l centralus --sku B1
